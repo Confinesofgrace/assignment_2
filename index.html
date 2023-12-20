@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 3</title>
+    <link rel="stylesheet" href="Replicate.css">
+</head>
+
+
+
+
+<body>
+    <!--Section 1 to contain the text, and Section 2 to contain the form.-->
+    <section id="section1">
+        <img src="Logo.png" alt="logo">
+        
+        <h2 class="section1">For Individuals</h2>
+
+        <p class="section1">Start benefiting from the wellness experience. <br>For companies looking on increasing productivity, and improving organization wellness.</br></p>
+    </section>
+
+    <section id="section2">
+
+        <div id="container">
+
+            <!-- Put each row in it's own container-->
+
+            <div id="row-1" style="display: flex; width: 100%; height: 74px; column-gap: 5%; margin-bottom: 30px;">  <!-- Container height= 48px (input height) + 10px (margin-top) + 16px (font-size)-->
+
+                <div id="first-name" style="width: 50%;">
+                    <label> First Name</label>
+                    <input type="text" placeholder="Tolu">
+                </div>
+
+                <div id="Last Name" style="width: 50%; column-gap: 5%; margin-bottom: 30px;">
+                    <label> Last Name</label>
+                    <input type="text">
+                </div>
+
+            </div>
+
+            <div id="row-2" style="display: flex; width: 100%; height: 74px; column-gap: 5%; margin-bottom: 30px;">
+
+                <div style="width: 50%;">
+                    <label> Gender</label>
+                    
+                    <select name="gender" id="gender" style="width: 100%;">
+
+                        <option value="">
+                            Select here
+                        </option>
+
+                        <option value="male">
+                            Male
+                        </option>
+
+                        <option value="female">
+                            Female
+                        </option>
+
+                    </select>
+
+                </div>
+
+                <div style="width: 50%;">
+                    <label> Date of Birth</label>
+                    <input type="date">
+                </div>
+
+            </div>
+
+            <div id="row-3" style="display: flex; width: 100%; height: 74px; column-gap: 5%; margin-bottom: 30px;">
+
+                <div>
+                    <label> Weight (KG)</label>
+                    <input type="text" placeholder="Enter Weight">
+                </div>
+
+                <div>
+                    <label> Height (CM)</label>
+                    <input type="text" placeholder="Enter height here..">
+                </div>
+
+            </div>   
+            
+            <div id="row-4" style="display: flex; flex-direction: column; row-gap: 10%; width: 100%; height: 74px; margin-bottom: 30px;">
+
+                <div>
+                    <label> Activity Level</label>
+
+                    <select name="activity level" id="activity-level" style="width: 100%;">
+
+                        <option value="">
+                            Select here
+                        </option>
+
+                        <option value="high">
+                            High
+                        </option>
+
+                        <option value="low">
+                            Low
+                        </option>
+
+                    </select>
+                </div>
+
+            </div>    
+
+            <div id="row-5" style="display: flex; flex-direction: column; row-gap: 10%; width: 100%; height: 74px; margin-bottom: 30px;">
+
+                <div>
+                    <label> Password</label>
+                    <input type="password" placeholder="Password">
+                
+                </div>
+
+            </div>
+            
+           
+
+            <div>
+                <button>
+                        Register
+                </button>
+            </div>
+
+            <p style="font-size: 14px; text-align: center; color: black;">By clicking Register, you agree to our <a style="color:#2EC4B6;">Terms of Use</a> and our <a style="color:#2EC4B6;">Privacy Policy</a></p>
+        </div>
+         
+        
+    </section> 
+
+   
+    
+</body>
+</html>
